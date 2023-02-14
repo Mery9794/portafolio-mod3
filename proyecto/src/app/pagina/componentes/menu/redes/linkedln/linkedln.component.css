@@ -1,0 +1,13 @@
+/*color de los ICONOS navegaacion de redes*/
+i.fa-brands.fa-linkedin.fa-xl{
+    color: rgb(246, 246, 255);
+ }
+ .list-group-item{
+    --bs-list-group-bg:  transparent;
+    --bs-list-group-border-color: transparent;
+}
+ul.list-group.list-group-horizontal {
+    --bs-list-group-item-padding-y: 0.1rem;
+    padding-left: 50%;
+    margin-left: 30rem;
+}

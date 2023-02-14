@@ -1,0 +1,59 @@
+
+            <!-- Modal TEXTO DE INICIO DE SECION-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+          <div class="modal-content">
+               <div class="modal-header">
+                   <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <form [formGroup]="form"  (ngSubmit)="onEnviar($event)">    
+                  <div>    <!-- correo-->                         
+                       <input type="text" placeholder="Usuario" formControlName="user" [class.border-danger]="UserValid" class="controls">
+                  </div>
+                  <br/>
+                  <div>          <!-- Contraseña -->
+                      <input type="password" placeholder="Contraseña" formControlName="password" [class.border-danger]="UserValid" class="controls">
+                  </div>
+                  <br/>
+                  <div class="text-center">  <!-- boton -->
+                    <button type="button" class="buttons">
+                      <a href="dashboard">Iniciar Seción</a></button> <br>
+                    <button type="button" class="pregunta" > ¿Olvidaste tu contraseña?</button>
+                  </div>
+                </form>
+
+
+            <!-- Modal TEXTO DE INICIO DE SECION-->
+<!---       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                 <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <form [formGroup]="form"  (ngSubmit)="onEnviar($event)">  
+                      <div class="modal-body">
+                        <div class="mb-3 row"> <!-- Email-->
+<!---                             <label for="staticEmail" class="col-sm-2 col-form-label">Usuario</label>
+                            <div class="col-sm-10"> 
+                              <input type="email"  class="form-control" id="staticEmail" placeholder="Ingrese su Usuario">
+                            </div>
+                          </div>
+                          <div class="mb-3 row"> <!-- Contraseña-->
+<!---                             <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                            <div class="col-sm-10">
+                              <input type="password" class="form-control" id="inputPassword" placeholder="Ingrese su contraseña" >
+                            </div>
+                          </div>
+                      </div>
+                                      
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Iniciar Seción</button>
+                      </div>
+                    </form>
+                 </div>
+            </div>
+</div> 
+-->

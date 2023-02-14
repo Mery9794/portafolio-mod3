@@ -1,0 +1,15 @@
+.col-3.ex {
+    margin-left: -4rem;
+    margin-top: 3rem;
+    color: rgb(255, 255, 255);
+}
+.col-8.text-md-start.ex{
+    margin-left: 25rem;
+    margin-top: -2.5rem;
+    color:rgb(255, 255, 255) ;
+}
+
+.col-1{
+    margin-left: 45rem;
+    margin-top: -5rem;
+}

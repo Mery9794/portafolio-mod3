@@ -1,0 +1,31 @@
+/* h&s*/
+h3.fw-normal4 {
+    margin-left: -3rem; 
+    margin-top: 1rem; 
+}
+#hardysoftskills{
+    background-color: #ffffff;
+    color: black;
+}
+img.card-img-top{
+    width: 260px;
+}
+section#hardysoftskills{
+    background: #ffffff;
+    opacity: .8;
+}
+.titulo{
+    margin-top: 2rem;
+}
+.img {
+    width: 30px;
+    height: 30px;
+ }
+ .col-1{
+    margin-top: 1rem;
+    margin-left: 65rem;
+ }
+ .btn.btn-close-dark{
+    margin-left: 70rem;
+}
+ 

@@ -1,0 +1,11 @@
+a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    --bs-list-group-bg:  transparent;
+    --bs-list-group-border-color: transparent;
+    --bs-list-group-item-padding-y: 0.1rem;
+    margin-left: 0.1rem;
+}
+.fa-solid.fa-arrow-right-to-bracket.fax1{
+    margin: -0.3rem -0.3rem;
+}

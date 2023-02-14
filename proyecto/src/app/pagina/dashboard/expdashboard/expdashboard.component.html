@@ -1,0 +1,19 @@
+<section id="experiencia" class="exp">
+    <div class="container text-left">  <!-- contenedor de exp --> 
+    <div class="row p-3">
+        <div class="col-3 ex">     <!--titulo-->    
+           <h3 class="tituloexp">Experiencia Laboral</h3>
+        </div>                             
+        <div class="col-8 text-md-start ex">   <!-- informacion  -->     
+           <div *ngFor="let experiencia of experiencias" >    <!--ngfor-->
+             <h5>{{experiencia.actividad}}</h5> 
+           </div>
+           <div class="col-1" *ngFor="let edicion of ediciones">
+            <button type={{edicion.tipo}} class={{edicion.clase}} ><i class={{edicion.lapiz}} ></i></button>  
+            <button type={{edicion.tipo}} class={{edicion.clase}}><i class={{edicion.basura}} ></i></button>  
+            <button type={{edicion.tipo}} class={{edicion.clase}}><i class={{edicion.plus}} ></i></button>  
+        </div>
+        </div>
+    </div>
+  </div>
+</section>

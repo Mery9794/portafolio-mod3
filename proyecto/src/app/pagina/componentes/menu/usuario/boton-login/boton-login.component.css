@@ -1,0 +1,5 @@
+.list-group-item{
+   --bs-list-group-bg:  transparent;
+   --bs-list-group-border-color: transparent;
+   color: rgb(255, 255, 255);
+}

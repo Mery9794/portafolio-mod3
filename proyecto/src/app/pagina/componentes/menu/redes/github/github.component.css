@@ -1,0 +1,12 @@
+i.fa-brands.fa-github.fa-xl{
+    color: rgb(255, 255, 255);
+}
+.list-group-item{
+   --bs-list-group-bg:  transparent;
+   --bs-list-group-border-color: transparent;
+}
+ul.list-group.list-group-horizontal {
+   --bs-list-group-item-padding-y: 0.1rem;
+   padding-left: 50%;
+   margin-left: 1rem;
+}

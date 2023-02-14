@@ -1,0 +1,19 @@
+.row.p-3{
+    color: aliceblue;
+}
+.col-8.text-md-start{
+    margin-left: 20rem;
+    margin-top: -11rem;
+}
+.col-3 {
+    margin-left: -4rem;
+    margin-top: -0.2rem;
+}
+.col-1{
+    margin-left: 70rem;
+    margin-top: -9rem;
+}
+.col-3 p{
+    margin-left: -2rem;
+    margin-top: -0.2rem;
+}

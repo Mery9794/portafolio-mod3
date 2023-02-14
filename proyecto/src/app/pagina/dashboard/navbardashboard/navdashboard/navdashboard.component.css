@@ -1,0 +1,12 @@
+/*color de la barra de NAVEGACION  lg bg-secondary*/
+.navbar.navbar-expand-sm.rounded.justify-content-between{
+    background-color: rgb(0, 0, 0, 0.5) !important ;
+    grid-template-columns: 10% auto 10%;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border-top: 0.1rem solid rgba(255, 255, 255, 0.459);
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.459);
+    z-index: 11;
+    top: 0;
+    grid-template-columns: 10% auto;
+}

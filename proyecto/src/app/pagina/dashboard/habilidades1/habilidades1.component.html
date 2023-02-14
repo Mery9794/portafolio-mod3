@@ -1,0 +1,21 @@
+<!-- Seccion Hard&SoftSkills --> 
+<section id="hardysoftskills" class="about">
+    <div class="container text-left">  <!-- contenedor h&s --> 
+      <div class="row">
+          <div class="col -3" >         
+             <h3 class="fw-normal4"><br>Hard & Soft Skills</h3>
+          </div>                             
+      </div>
+      <button type="submit" class="btn btn-close-dark"><i class="fa-solid fa-plus"></i></button>    
+      <div *ngFor="let hyS of habilidades">
+        <p class="titulo">{{hyS.habilidad}}<img [src]="hyS.img" class="img"></p>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="80"  aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" [style]="hyS.style">{{hyS.porcentaje}}</div>
+        </div>
+        <div class="col-1" *ngFor="let edicion of ediciones">
+            <button type={{edicion.tipo}} class={{edicion.clase}} ><i class={{edicion.lapiz}} ></i></button>  
+            <button type={{edicion.tipo}} class={{edicion.clase}}><i class={{edicion.basura}} ></i></button>
+        </div>
+      </div>      
+    </div>
+</section>

@@ -1,0 +1,106 @@
+{
+    "nombre":"Maria Solange",
+    "apellido":"Castañeda Pariona",
+    "info":"Estudiante de Ingenieria en Computación con experiencia en aplicaciones web. Me considero una persona responsable, con muchas ganas de seguir aprendiendo, ordenada, detallista y perfeccionista en lo que hago. Dispuesta a llevar a cabo de manera eficiente las tareas establecidas por la empresa, sea grupal o individual y formar parte de proyectos funcionales que superen las expectativas de los clientes.",
+    "img": "./assets/img/Foto de perfil.jpg",
+    "titulo":"Desarrollador Full Stack Developer Jr",
+    "educaciones":[
+        {
+          "id":1,
+          "actividad": "Secundario",
+          "nombre":"Escuela Liceo Victor Mercante",
+          "especialidad": "Bachiller en ciencias naturales",
+          "desde": "2010",
+          "hasta":"2016",
+          "img":"./assets/img/logo-secu.jpg"
+        },
+        {
+          "id":2,
+          "actividad": "Universidad",
+          "nombre":"Universidad Nacional de La Plata",
+          "especialidad": "Ingenieria en Computación",
+          "desde": "2017",
+          "hasta":"en curso",
+          "img":"./assets/img/logo-uni.jpg", 
+          "img2":"./assets/img/logo-uni2.jpg"
+        },
+        {
+          "id":3,
+          "actividad": "1era etapa Argentina Programa",
+          "especialidad": "Introducción a la programación",
+          "nombre":"Se Programar",
+          "desde": "06/2022",
+          "hasta":"09/2022",
+          "img":"./assets/img/Diseño sin título (17).jpg"
+        },
+        {
+          "id":4,
+          "actividad": "2da etapa Argentina Programa",
+          "especialidad": "Full Stack Developer Junior",
+          "nombre":"Yo Programo",
+          "desde": "10/2022",
+          "hasta":"05/2023",
+          "img":"./assets/img/Diseño sin título (17).jpg"
+        } 
+        
+    ],
+
+    "experiencias":[
+      {
+      "id":1,
+      "actividad": "Sin experiencia laboral",
+      "nombre": "",
+      "puesto": ""
+      }
+    ],
+    "habilidades":[
+      {
+        "id":1, 
+        "habilidad": "HTML",
+        "porcentaje": "75%",
+        "img":"./assets/img/html.jpg",
+        "style":"width: 75%"
+      },
+      {
+        "id":1, 
+        "habilidad": "CSS",
+        "porcentaje": "60%",
+        "img":"./assets/img/css.jpg",
+        "style":"width: 60%"
+      },
+      {
+        "id":1, 
+        "habilidad": "JS",
+        "porcentaje": "50%",
+        "img":"./assets/img/js.jpg",
+        "style":"width: 50%"
+      },
+      {
+        "id":1, 
+        "habilidad": "Boopstrap",
+        "porcentaje": "90%",
+        "img":"./assets/img/bootstrap.jpg",
+        "style":"width: 90%"
+      }
+    ],
+    "proyectos":[
+      {
+        "id":1,
+        "img":"./assets/img/Diseño sin título (17).png",
+        "urlProyecto":"",
+        "tituloProyecto": "Armado de Login",
+        "inicio": "10/2022",
+        "fin":"05/2023",
+        "descripcion":"Armado de inicio de seción con campos y con detalles sugeridos en los trabajos practicos"
+      }
+    ],
+    "ediciones":[
+      {
+       "lapiz": "fa-solid fa-pencil", 
+       "basura": "fa-solid fa-trash-can",
+       "plus": "fa-solid fa-plus",
+       "clase":"btn btn-close-white",
+       "tipo":"submit"
+      }         
+    ]
+}

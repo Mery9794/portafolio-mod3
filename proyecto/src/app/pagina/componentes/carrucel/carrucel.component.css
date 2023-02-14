@@ -1,0 +1,14 @@
+/* Botones del carrucel con imagen*/
+button.btn.btn-primary.btn-lg{
+    --bs-btn-padding-y: 0,4rem;
+    --bs-btn-bg: #c398f7;
+    --bs-btn-color: rgb(0, 0, 0);
+    --bs-btn-border-color: #23004b;
+    --bs-btn-hover-bg:#c398f7;
+    width: 16%;
+}
+/* Letras del carrucel*/
+.carousel-caption.d-none.d-md-block {
+    text-align: left;
+    color: rgb(255, 255, 255)
+}

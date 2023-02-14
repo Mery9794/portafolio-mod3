@@ -1,0 +1,33 @@
+ <!-- Seccion Educacion--> 
+ <section id="educacion" class="edu">
+    <div class="container text-left">  <!-- contenedor  --> 
+      <div class="row p-3">
+          <div class="col-3 e" >          <!-- titulo  --> 
+             <h3 class="tituloedu">Educacion</h3>                           
+          </div>
+      </div> 
+      <button type="submit" class="btn btn-close-dark"><i class="fa-solid fa-plus"></i></button>
+      <div class="row row-cols-1 row-cols-md-2 g-6" >
+            <!-- tarjeta con toda la info  -->
+         <div class="row g-0" *ngFor="let educacion of educaciones">   
+            <div class="col-md-4">   <!-- imagen con la fecha  -->
+                <img [src]="educacion.img" class="img-fluid rounded-start" alt="...">
+                <br>
+                <br>
+                <h6 class="fecha">{{educacion.desde}} - {{educacion.hasta}}</h6>
+            </div>
+            <div class="col-md-8">    <!-- nombre y especialidad -->
+               <div class="card-body">   
+                   <h5>{{educacion.nombre}}</h5>
+                   <h6>{{educacion.especialidad}}</h6>
+               </div>
+            </div>
+            <div class="col-1" *ngFor="let edicion of ediciones">
+                <button type={{edicion.tipo}} class={{edicion.clase}} ><i class={{edicion.lapiz}} ></i></button>  
+                <button type={{edicion.tipo}} class={{edicion.clase}}><i class={{edicion.basura}} ></i></button>  
+            </div>
+         <hr>
+         </div>
+      </div>
+    </div> 
+</section>

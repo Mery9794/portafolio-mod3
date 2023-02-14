@@ -1,0 +1,30 @@
+.col-3.e {
+    margin-left: -4rem;
+    margin-top: 2rem;
+}
+
+.row.p-3{
+    color: rgb(0, 0, 0);
+}
+section#educacion{
+    background: #ffffff;
+    opacity: .8;
+    color: black;
+}
+.row.row-cols-1.row-cols-md-2.g-6{
+    color: rgb(0, 0, 0);
+}
+.col-md-8{
+    margin-top: 1rem;
+}
+.img-fluid.rounded-start{
+    margin-left: -1rem;
+}
+.col-1{
+    margin-top: -8rem;
+    margin-left: 28rem;
+}
+ 
+.btn.btn-close-dark{
+    margin-left: 70rem;
+}

@@ -1,0 +1,37 @@
+.modal-dialog{
+    color: black;
+}
+.modal-body{
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+}
+.controls{
+    width: 100%;
+    padding: 11px 10px;
+}
+button.buttons {
+    width: 50%;
+    background: #017bab;
+    border:none;
+    color: white;
+    margin-bottom: 16px;
+    text-decoration: none;
+    padding: 11px 10px;
+
+}
+a {
+    color: rgba(var(--bs-link-color-white),var(--bs-link-opacity,1));
+}
+.pregunta{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+   text-decoration: none; 
+   font-size: 14px;
+   border:none;
+}
+.pregunta:hover{
+    text-decoration: underline;
+    width: 50%;
+   
+}

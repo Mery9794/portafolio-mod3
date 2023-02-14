@@ -1,0 +1,12 @@
+/* PROYECTO*/
+.row.p-3 {
+    padding: 3rem!important;
+    color: aliceblue;
+}
+.col-3.p {
+    margin-left: -7rem;
+}
+.col-8.text-md-start.p{
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
